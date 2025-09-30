@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MSGController {
 
-	@GetMapping("/msg")
+	@GetMapping("/check")
 	public String msg() {
 		return "This is Docker App";
 	}
